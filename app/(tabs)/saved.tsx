@@ -1,12 +1,12 @@
 import { View, Text } from 'react-native'
 import React from 'react'
 
-const map = () => {
+const saved = () => {
   return (
     <View>
-      <Text>map</Text>
+      <Text>saved</Text>
     </View>
   )
 }
 
-export default map
+export default saved

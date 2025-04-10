@@ -14,5 +14,5 @@
     ".expo/types/**/*.ts",
     "expo-env.d.ts",
     "nativewind-env.d.ts"
-  ]
+, "../../Downloads/2025-03 React Native Movie App/React Native Movie App (assets)/constants/Colors.ts"  ]
 }
