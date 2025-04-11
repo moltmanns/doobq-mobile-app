@@ -5,7 +5,7 @@ import { Link } from 'expo-router';
 
 const HeaderBar = ({ onMenuPress }: { onMenuPress?: () => void }) => {
   return (
-    <View className="flex-row justify-between items-center px-6 pt-4">
+    <View className="flex-row justify-between items-center px-6 pt-4 pb-2">
       {/* Menu Button */}
       <TouchableOpacity onPress={onMenuPress}>
         <Icon name="menu" size={24} color="#0d0d0d" />

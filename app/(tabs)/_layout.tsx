@@ -28,7 +28,7 @@ const TabIcon = ({ focused, icon, title }: any) => {
 
 const _layout = () => {
   return (
-    <SafeAreaView className="flex-1 bg-white">
+    <SafeAreaView className="flex-1 bg-white" edges={['top']}>
       {/* Global Header */}
       <HeaderBar onMenuPress={() => console.log('Menu button pressed')} />
 
