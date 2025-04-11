@@ -1,12 +1,13 @@
-import { View, Text } from 'react-native'
-import React from 'react'
+import { Text } from 'react-native';
+import React from 'react';
+import { SafeAreaView } from 'react-native-safe-area-context';
 
-const index = () => {
+const Index = () => {
   return (
-    <View className='flex flex-1 justify-center items-center'>
-      <Text className='text-2xl'>DooBQ App coming soon</Text>
-    </View>
-  )
-}
+    <SafeAreaView className="flex-1 px-6 bg-white">
+      <Text className="text-lg font-bold text-primary">DooBQ app coming soon</Text>
+    </SafeAreaView>
+  );
+};
 
-export default index
+export default Index;

@@ -1,12 +1,13 @@
 import { View, Text } from 'react-native'
 import React from 'react'
+import { SafeAreaView } from 'react-native-safe-area-context'
 
-const saved = () => {
+const profile = () => {
   return (
-    <View>
+    <SafeAreaView className="flex-1 px-6 bg-white">
       <Text>saved</Text>
-    </View>
+    </SafeAreaView>
   )
 }
 
-export default saved
+export default profile

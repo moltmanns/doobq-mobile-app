@@ -9,7 +9,11 @@ module.exports = {
         secondary: '#43DDFF',
         borderaccent: '#848484',
         cardborder: '#E1E1E1'
-      }
+      },
+      fontFamily: {
+        sans: ['Inter-Regular'],
+        bold: ['Inter-Bold'],
+      },
     },
   },
   plugins: [],
